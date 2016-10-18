@@ -1,24 +1,31 @@
 package com.boshinya.stepdefinitions;
 
 import com.boshinya.pageobjects.Login;
+import com.boshinya.utilities.DriverFactory;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.junit.Assert.*;
+
+import java.sql.Driver;
+
 /**
  * Created by bothees on 11/10/2016.
  */
-public class Loginsteps {
+public class Loginsteps extends DriverFactory{
 
-    public WebDriver driver = new FirefoxDriver();
 
     private static String expectedstring = "Boothiraj";
 
     Login login = new Login(driver);
+    @Before
+    public void setup(){
+        driver = new DriverFactory().getdriver();
+    }
 
     @Given("^user am on LoginPage$")
     public void user_am_on_LoginPage() throws Throwable {
@@ -44,12 +51,9 @@ public class Loginsteps {
       Assert.assertEquals(expectedstring,login.verifyHomepage());
     }
 
-
-
-
     @After
     public void teardown(){
-        driver.close();
+        DriverFactory.destroyDriver();
     }
 
 }
