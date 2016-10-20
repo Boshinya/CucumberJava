@@ -3,6 +3,7 @@ package com.boshinya.stepdefinitions;
 import com.boshinya.pageobjects.Homepage;
 import com.boshinya.pageobjects.Login;
 import com.boshinya.utilities.DriverFactory;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,6 +11,8 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.junit.Assert.*;
 import org.junit.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 /**
  * Created by bothees on 11/10/2016.
@@ -43,8 +46,13 @@ public class Homepagesteps extends DriverFactory{
         Assert.assertTrue("verified",home.verifyhistory());
     }
     @After
-    public void teardown(){
-         DriverFactory.destroyDriver();
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png"); //stick it in the report
+        }
+        DriverFactory.destroyDriver();
     }
 
 }

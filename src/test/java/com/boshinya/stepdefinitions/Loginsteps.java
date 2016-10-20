@@ -2,12 +2,15 @@ package com.boshinya.stepdefinitions;
 
 import com.boshinya.pageobjects.Login;
 import com.boshinya.utilities.DriverFactory;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.junit.Before;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -48,11 +51,16 @@ public class Loginsteps extends DriverFactory{
 
     @Then("^user should see the homepage$")
     public void user_should_see_the_homepage() throws Throwable {
-      Assert.assertEquals(expectedstring,login.verifyHomepage());
+        Assert.assertEquals(expectedstring,login.verifyHomepage());
     }
 
     @After
-    public void teardown(){
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenshot, "image/png"); //stick it in the report
+        }
         DriverFactory.destroyDriver();
     }
 
