@@ -7,6 +7,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.OutputType;
@@ -21,6 +22,7 @@ import java.sql.Driver;
  */
 public class Loginsteps extends DriverFactory{
 
+    final static Logger logger = Logger.getLogger(Homepagesteps.class);
 
     private static String expectedstring = "Boothiraj";
 
@@ -32,6 +34,7 @@ public class Loginsteps extends DriverFactory{
 
     @Given("^user am on LoginPage$")
     public void user_am_on_LoginPage() throws Throwable {
+        logger.info("opening the login page");
         login.goToLoginpage();
     }
 

@@ -14,11 +14,14 @@ import org.junit.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import org.apache.log4j.Logger;
+
 /**
  * Created by bothees on 11/10/2016.
  */
 public class Homepagesteps extends DriverFactory{
 
+    final static Logger logger = Logger.getLogger(Homepagesteps.class);
 
 
     Homepage home = new Homepage(driver);
@@ -29,6 +32,7 @@ public class Homepagesteps extends DriverFactory{
 
     @Given("^user logged on Homepage$")
     public void user_logged_on_Homepage() throws Throwable {
+        logger.info("user logging in to mysupermarket");
         Login login = new Login(driver);
         login.goToLoginpage();
         login.enteruserName();
@@ -38,6 +42,7 @@ public class Homepagesteps extends DriverFactory{
 
     @Given("^click on All history menu$")
     public void click_on_All_history_menu() throws Throwable {
+        logger.info("Clicking on History button");
         home.clickonhistorybutton();
     }
 
