@@ -9,6 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -28,7 +31,11 @@ public class Login {
     @FindBy(id = "signInButton")
     private WebElement signin;
 
+    @FindBy(xpath = "//*[@id='content-wrap']/div/div/section/header/div[1]/h1")
+    private WebElement loginHead;
+
     PropertyReader prp = new PropertyReader();
+    Common common = new Common();
 
     private String url = prp.readproperty("login.url") ;
     private String username = prp.readproperty("login.username");
@@ -57,9 +64,11 @@ public class Login {
     }
 
     public String verifyHomepage(){
-        String text = driver.findElement(By.id("welcome-name")).getText();
+        String text = common.waitForVisibilityOfElement(loginHead).getText();
         System.out.println("Actual String:"+text);
         return text;
     }
+
+
 
 }

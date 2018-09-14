@@ -1,3 +1,4 @@
+@test
 Feature: login to the Application
   Scenario: Given valid username and password should be able to login to the application.
     Given user am on LoginPage

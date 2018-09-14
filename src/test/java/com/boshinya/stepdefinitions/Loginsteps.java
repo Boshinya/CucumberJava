@@ -1,5 +1,6 @@
 package com.boshinya.stepdefinitions;
 
+import com.boshinya.pageobjects.Common;
 import com.boshinya.pageobjects.Login;
 import com.boshinya.utilities.DriverFactory;
 import cucumber.api.Scenario;
@@ -27,6 +28,7 @@ public class Loginsteps extends DriverFactory{
     private static String expectedstring = "Boothiraj";
 
     Login login = new Login(driver);
+
     @Before
     public void setup(){
         driver = new DriverFactory().getdriver();

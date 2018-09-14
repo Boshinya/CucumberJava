@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format ={"pretty","html:target/cucumber-html-report", "json:target/cucumber-json-report.json"},features ="src/test/resources/features",glue="com.boshinya.stepdefinitions")
+@CucumberOptions(
+        format ={"pretty","html:target/cucumber-html-report", "json:target/cucumber-json-report.json"},
+        features ="src/test/resources/features",glue="com.boshinya.stepdefinitions")
 public class RunTest {
 
 }

@@ -6,14 +6,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
 /**
  * Created by bothees on 11/10/2016.
  */
-public class Homepage {
+public class Homepage extends Common {
 
     private WebDriver driver;
 
@@ -25,11 +28,9 @@ public class Homepage {
         PageFactory.initElements(driver, this);
     }
 
-
     public void clickonhistorybutton() {
-        history.get(0).click();
+        waitForVisibilityOfElements(history).get(0).click();
     }
-
 
     public boolean verifyhistory() {
         return true;
