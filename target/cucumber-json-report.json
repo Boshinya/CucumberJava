@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given valid username and password should be able to login to the application.",
+        "description": "",
+        "id": "login-to-the-application;given-valid-username-and-password-should-be-able-to-login-to-the-application.",
+        "after": [
+          {
+            "result": {
+              "duration": 86104917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepagesteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2183007850,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user am on LoginPage",
+            "match": {
+              "location": "Loginsteps.user_am_on_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87174788,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username",
+            "match": {
+              "location": "Loginsteps.user_enter_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71811239,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid password",
+            "match": {
+              "location": "Loginsteps.user_enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1216027429,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "Loginsteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580596417,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see the homepage",
+            "match": {
+              "location": "Loginsteps.user_should_see_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Given user logged in and user has to see the history page",
+        "description": "",
+        "id": "login-to-the-application;given-user-logged-in-and-user-has-to-see-the-history-page",
+        "after": [
+          {
+            "result": {
+              "duration": 82780881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Homepagesteps.tearDown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 655903405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2847922335,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logged on Homepage",
+            "match": {
+              "location": "Homepagesteps.user_logged_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1086284232,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on All history menu",
+            "match": {
+              "location": "Homepagesteps.click_on_All_history_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26620,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see all the information",
+            "match": {
+              "location": "Homepagesteps.user_should_see_all_the_information()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login to the Application",
+    "description": "",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]

@@ -2,69 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68b234b-057a-44f9-b719-4d412f45aa39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_53_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/pageobjects/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/pageobjects/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/pageobjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/pageobjects/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/stepdefinitions/Loginsteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/stepdefinitions/Loginsteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/boshinya/utilities/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/utilities/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/boshinya/pageobjects/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/pageobjects/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/boshinya/stepdefinitions/Loginsteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/stepdefinitions/Loginsteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/boshinya/pageobjects/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/embedded0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/embedded1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/embedded2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/CucumberRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/RunTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/pageobjects/Common.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/pageobjects/Homepage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/stepdefinitions/Homepagesteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/boshinya/utilities/DriverFactory.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,7 +112,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/boshinya/stepdefinitions/Loginsteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="145">
               <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -529,23 +483,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="621" y="69" width="437" height="859" id="Project" order="0" sideWeight="0.49941793" visible="true" weight="0.2869353" />
+      <window_info content_ui="combo" x="621" y="69" width="437" height="859" id="Project" order="0" sideWeight="0.49941793" visible="true" weight="0.2735043" />
       <window_info id="Structure" order="1" sideWeight="0.5005821" side_tool="true" weight="0.26678878" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32967034" />
       <window_info id="Favorites" order="4" sideWeight="0.5005821" side_tool="true" weight="0.26678878" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7985348" visible="true" weight="0.49639422" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7985348" weight="0.49738768" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7118437" weight="1.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945284" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32945284" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32945284" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.7586207" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2881563" side_tool="true" weight="0.61637425" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.44110578" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -850,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/boshinya/stepdefinitions/Loginsteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="145">
           <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
