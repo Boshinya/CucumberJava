@@ -44,7 +44,7 @@
                 <!--<include>**/RunTest.java</include>-->
               <!--</includes>-->
               <systemPropertyVariables>
-                <BrowserType>Firefox</BrowserType>
+                <BrowserType>Chrome</BrowserType>
               </systemPropertyVariables>
             </configuration>
           </plugin>
